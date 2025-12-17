@@ -1,0 +1,45 @@
+# EmpathyAI Model Configuration
+
+# 모델 설정
+models:
+  base_model: "gpt-4.1-nano-2025-04-14"
+  fine_tuned_model: "ft:gpt-4.1-nano-2025-04-14:personal::Cn0GL0QT"
+
+# 라벨 설정
+labels:
+  - id: 0
+    name: "Not Applicable"
+    description: "공감이 적용되지 않는 상황"
+  - id: 1
+    name: "Empathy Failure"
+    description: "공감 실패"
+  - id: 2
+    name: "Low Empathy"
+    description: "낮은 수준의 공감"
+  - id: 3
+    name: "Moderate Empathy"
+    description: "중간 수준의 공감"
+  - id: 4
+    name: "High Active Empathy"
+    description: "높은 수준의 적극적 공감"
+
+# 학습 설정
+training:
+  epochs: 3
+  train_val_split: 0.9
+  
+# 데이터 경로
+data_paths:
+  train: "data/train_val/opela_empathy_train.jsonl"
+  validation: "data/train_val/opela_empathy_val.jsonl"
+  eval_results: "data/eval_results.json"
+
+# 프롬프트 설정
+prompts:
+  system: |
+    You are an empathy classifier for Korean persona-user dialogues. 
+    Given a USER utterance and the PERSONA's reply, output a JSON object ONLY 
+    with the key "empathy_label" whose value is an integer in {0,1,2,3,4}.
+    Label meanings: 0=not applicable, 1=empathy failure, 2=low empathy, 
+    3=moderate empathy, 4=high active empathy.
+
