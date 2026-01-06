@@ -1,0 +1,46 @@
+{
+  "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "responses": [
+    "I'm so sorry to hear that. Losing a job can be really tough, especially when it feels unexpected. Five years is a long time to be with a company, and I can imagine how attached you must feel to the people and the work. It's like a part of your identity has been taken away from you.\n\nCan you tell me a bit more about how you're feeling right now? Is it anger, sadness, or something else?",
+    "I can only imagine how tough this must be for you. It sounds like you're really missing your friend and feeling a bit lost about what's going on. It's completely normal to wonder what you might have done wrong, but the truth is, sometimes people just need space or time to work through their own stuff.\n\nCan you tell me a bit more about your friend? What's usually your relationship like with them? Have you talked to them or tried to reach out recently?",
+    "I'm beyond thrilled for you! Passing your medical exam after three attempts must be such a huge relief and a huge accomplishment. I can only imagine how much stress and pressure you must have been under. You should be incredibly proud of yourself for persevering and not giving up. It just goes to show that hard work and determination can pay off in the end.\n\nHow are you feeling right now? Excited for the future and all the opportunities this opens up for you, or are you still trying to process everything?",
+    "I can only imagine how overwhelming and confusing this must be for you. It's completely normal to feel uncertain about how to process this news, especially when it's something that affects the people closest to you. \n\nFirst of all, let me just acknowledge how brave you are for sharing this with me. It takes a lot of courage to talk about something that's so personal and difficult. \n\nIt's okay if you don't know how to feel right now. It's okay to take your time and figure things out. Your parents' divorce is a significant change, and it's natural to feel a mix of emotions - sadness, anger, guilt, or even relief. Whatever you're feeling, it's valid. \n\nIf you feel comfortable, can you tell me a bit more about what's been going on? How have you been feeling since you found out about the divorce?",
+    "I'm so sorry to hear that you're going through this. It sounds like you're feeling really overwhelmed and stressed out. Anxiety can be a really tough thing to deal with, and it's completely normal to feel like you're drowning in worries. \n\nCan you tell me more about what's been going on that's causing you to feel this way? Is it work, relationships, or something else that's got you feeling anxious?",
+    "I'm so, so sorry to hear that. Losing a pet is never easy, and 12 years is a significant amount of time to share with a beloved companion. It's clear that your dog was more than just a pet to you - he was a member of your family.\n\nI can only imagine how hard this must be for you. It's normal to feel a deep sense of loss and grief when someone (or something) we love leaves our lives. It's okay to feel sad, and it's okay to take the time to process your emotions.\n\nCan you tell me a little bit more about your dog? What was he like? What are some of your favorite memories of him?",
+    "That's amazing news! I'm beyond thrilled for you! I can only imagine how you must be feeling right now - a mix of excitement, relief, and pride. All your hard work and dedication have truly paid off, and it's incredible that you get to pursue your dreams at your dream university. How does it feel to have this weight lifted off your shoulders and to know that you're one step closer to achieving your goals?",
+    "I'm so sorry to hear that you're feeling that way. It can be really isolating and lonely when it feels like no one truly gets you. It's like you're carrying this heavy weight all by yourself, and it's exhausting. \n\nI want you to know that I'm here, and I'm listening. I may not have walked in your shoes, but I'm here to listen without judgment and offer a supportive ear. It takes a lot of courage to admit that you feel this way, and I'm here to validate your emotions. You're not alone, and it's okay to feel this way.",
+    "I'm so sorry to hear that. It sounds like you're really hurting right now. Forgetting such a special day can be really hurtful, especially when it's a recurring issue. It's understandable that you're feeling upset and possibly even a bit disappointed.\n\nCan you tell me more about what's going through your mind? How are you feeling about this situation?",
+    "Congratulations on your pregnancy! It's completely normal to feel a mix of emotions right now. Being a parent can be both exhilarating and overwhelming, especially if it's your first time. \n\nIt's amazing that you're acknowledging your fears and excitement. That takes a lot of courage. It's okay to feel scared \u2013 it's natural to wonder if you're ready for this new chapter in your life. At the same time, it's wonderful that you're feeling excited, too. That means you're already embracing the love and joy that comes with being a parent.\n\nHow are you feeling about the upcoming changes? Is there anything specific that's making you nervous or excited?"
+  ],
+  "contexts": [
+    "I just lost my job today. I've been working there for 5 years and they just let me go without any warning.",
+    "My best friend hasn't talked to me in weeks. I don't know what I did wrong.",
+    "I finally passed my medical exam after failing three times! I can't believe it!",
+    "My parents are getting divorced after 30 years of marriage. I don't know how to feel.",
+    "I've been feeling really anxious lately. I can't sleep and I keep worrying about everything.",
+    "My dog passed away yesterday. He was with me for 12 years.",
+    "I got accepted into my dream university! All the hard work finally paid off.",
+    "I feel like nobody understands me. Even my closest friends don't seem to get what I'm going through.",
+    "My partner forgot our anniversary again. It's the third year in a row.",
+    "I just found out I'm going to be a parent. I'm excited but also terrified."
+  ],
+  "report": {
+    "model_name": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "num_samples": 10,
+    "mean_specificity": 2.436339260938149,
+    "mean_reflection_level": 4.8,
+    "mean_word_choice": 0.9208956855736483,
+    "mean_diversity": 0.8190564961118444,
+    "overall_score": 0.7568050084682806,
+    "details": {
+      "corpus_distinct_1": 0.28296703296703296,
+      "corpus_distinct_2": 0.6443629697525206,
+      "spec_std": 0.07030617508340642,
+      "refl_std": 1.9390719429665315,
+      "word_std": 0.00884683703029049,
+      "div_std": 0.05802281750180005,
+      "spec_coverage": 0.8932818601369303,
+      "word_coverage": 0.7303103727064133
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "date": "2026-01-06T02:08:38.570486",
+  "models": [
+    "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "deepseek-ai/deepseek-llm-7b-chat"
+  ],
+  "llama": {
+    "model_name": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "num_samples": 10,
+    "mean_specificity": 2.436339260938149,
+    "mean_reflection_level": 4.8,
+    "mean_word_choice": 0.9208956855736483,
+    "mean_diversity": 0.8190564961118444,
+    "overall_score": 0.7568050084682806,
+    "details": {
+      "corpus_distinct_1": 0.28296703296703296,
+      "corpus_distinct_2": 0.6443629697525206,
+      "spec_std": 0.07030617508340642,
+      "refl_std": 1.9390719429665315,
+      "word_std": 0.00884683703029049,
+      "div_std": 0.05802281750180005,
+      "spec_coverage": 0.8932818601369303,
+      "word_coverage": 0.7303103727064133
+    }
+  },
+  "deepseek": {
+    "model_name": "deepseek-ai/deepseek-llm-7b-chat",
+    "num_samples": 10,
+    "mean_specificity": 2.4268270581463045,
+    "mean_reflection_level": 2.7,
+    "mean_word_choice": 0.9287254446535828,
+    "mean_diversity": 0.8337893132130352,
+    "overall_score": 0.6744700423739698,
+    "details": {
+      "corpus_distinct_1": 0.28881737731295254,
+      "corpus_distinct_2": 0.6714975845410628,
+      "spec_std": 0.08743253162771668,
+      "refl_std": 2.1470910553583886,
+      "word_std": 0.012904400209546769,
+      "div_std": 0.08685535610227521,
+      "spec_coverage": 0.8913330552095898,
+      "word_coverage": 0.7636164623534045
+    }
+  },
+  "winner": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+  "lexicon_info": {
+    "concreteness_words": 39954,
+    "vad_words": 54801
+  }
+}

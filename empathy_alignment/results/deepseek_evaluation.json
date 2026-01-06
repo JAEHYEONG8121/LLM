@@ -1,0 +1,46 @@
+{
+  "model": "deepseek-ai/deepseek-llm-7b-chat",
+  "responses": [
+    "I'm sorry to hear that you lost your job today. Losing a job can be a difficult and stressful experience, especially when it comes unexpectedly. It's understandable that you might be feeling a range of emotions right now, such as sadness, frustration, or even anger.\n\nIt's important to remember that you are not alone in this situation, and that many people have gone through something similar. While it may be difficult to see the bright side right now, try to focus on the fact that you have experience and skills that are valuable in the job market.\n\nIn the meantime, take some time to reflect on what you have learned from your previous job and what you would like to do in the future. This can help you to gain clarity on your career path and make informed decisions about your next steps.\n\nIt may also be helpful to reach out to friends, family, or a professional career counselor for support and guidance. They may be able to provide you with resources or advice to help you navigate this difficult time.\n\nRemember, it's okay to take time to grieve the loss of your job and to process your emotions. But don't lose hope, and keep an open mind to new opportunities that may come your way",
+    "I'm sorry to hear that your best friend hasn't been in touch with you. It can be difficult to understand why someone might stop talking to you, but it's important to remember that there may be reasons that are not necessarily related to you.\n\nOne thing you can do is to try to reach out to your friend and let them know that you're thinking about them. You could send them a message or call them to see how they're doing. It's possible that they're going through a difficult time and could use a friendly voice to talk to.\n\nAnother thing you can do is to give them space if they seem to want it. Sometimes people need time to process their emotions or figure out what they want to say.\n\nIt's also possible that there was something that happened that caused a rift between you two, and it's up to them to communicate that to you. In any case, it's important to be patient and understanding, and to give them the time and space they need.",
+    "That's fantastic news! I'm so happy for you. Passing your medical exam after three failed attempts must have been incredibly challenging and frustrating. It must feel amazing to finally achieve your goal. You must be feeling a mix of emotions right now, such as relief, pride, and accomplishment. Well done!",
+    "I'm sorry to hear that your parents are getting divorced. It must be a difficult time for you. It's normal to feel a range of emotions, including sadness, confusion, and uncertainty. You may also be worried about how the divorce will affect your family and your relationship with your parents. It's important to remember that it's okay to feel overwhelmed and to take the time you need to process your emotions. It may also be helpful to talk to someone, such as a therapist or a trusted adult, about how you're feeling. They may be able to provide support and guidance as you navigate this difficult time.",
+    "I'm sorry to hear that you've been feeling so anxious lately. It's understandable that you're having trouble sleeping and worrying about everything. It's important to take care of yourself during this time. Have you tried any relaxation techniques, such as deep breathing or meditation, to help you calm down and reduce your anxiety? If not, I would recommend giving them a try. Additionally, you may want to consider speaking with a mental health professional who can provide you with additional support and guidance. They can help you develop coping strategies to manage your anxiety and improve your overall well-being.",
+    "I'm sorry to hear that. Losing a pet can be very difficult, and it's understandable that you're feeling sad. It's important to take time to grieve and remember the happy memories you shared with your dog. If you need someone to talk to or want to share your memories, I'm here to listen.",
+    "That's amazing news! I'm so happy for you. It's great to hear that all your hard work has paid off and you got accepted into your dream university. Congratulations!",
+    "It must be difficult when you feel like you're struggling with something that others can't relate to. It's important to remember that everyone experiences their own unique challenges and it's okay if you don't have the same experiences as others. It's also possible that your friends may not have the same level of understanding as you would like, but that doesn't mean they don't care about you.\n\nIt might be helpful to try to find someone who has had similar experiences or who has a similar background as you. Sometimes, talking to someone who has gone through similar struggles can help you feel less alone and provide you with a different perspective.\n\nIt's also important to remember that you don't have to go through this alone. You can reach out to a mental health professional who can provide you with support and guidance. They can help you process your emotions and develop coping strategies to help you feel better.\n\nIt's also important to take care of yourself. Self-care can include things like exercise, healthy eating, getting enough sleep, and spending time with loved ones. These things can help improve your mood and overall well-being.\n\nRemember that it's okay to ask for help and support",
+    "Oh, I'm sorry to hear that. It can be really disappointing when someone forgets an important occasion like an anniversary. How are you feeling about it?",
+    "Oh wow, congratulations on your exciting news! I can understand how you might be feeling both excited and terrified at the same time. It's completely normal to have mixed emotions when you're expecting a child.\n\nBeing a parent is a huge responsibility and can be overwhelming at times, but it's also one of the most rewarding experiences in life. It's great to hear that you're feeling excited about becoming a parent, and I'm sure you'll be an amazing parent.\n\nIf you have any questions or need any support, don't hesitate to reach out to me or seek help from other experienced parents or professionals. Remember, you don't have to go through this journey alone."
+  ],
+  "contexts": [
+    "I just lost my job today. I've been working there for 5 years and they just let me go without any warning.",
+    "My best friend hasn't talked to me in weeks. I don't know what I did wrong.",
+    "I finally passed my medical exam after failing three times! I can't believe it!",
+    "My parents are getting divorced after 30 years of marriage. I don't know how to feel.",
+    "I've been feeling really anxious lately. I can't sleep and I keep worrying about everything.",
+    "My dog passed away yesterday. He was with me for 12 years.",
+    "I got accepted into my dream university! All the hard work finally paid off.",
+    "I feel like nobody understands me. Even my closest friends don't seem to get what I'm going through.",
+    "My partner forgot our anniversary again. It's the third year in a row.",
+    "I just found out I'm going to be a parent. I'm excited but also terrified."
+  ],
+  "report": {
+    "model_name": "deepseek-ai/deepseek-llm-7b-chat",
+    "num_samples": 10,
+    "mean_specificity": 2.4268270581463045,
+    "mean_reflection_level": 2.7,
+    "mean_word_choice": 0.9287254446535828,
+    "mean_diversity": 0.8337893132130352,
+    "overall_score": 0.6744700423739698,
+    "details": {
+      "corpus_distinct_1": 0.28881737731295254,
+      "corpus_distinct_2": 0.6714975845410628,
+      "spec_std": 0.08743253162771668,
+      "refl_std": 2.1470910553583886,
+      "word_std": 0.012904400209546769,
+      "div_std": 0.08685535610227521,
+      "spec_coverage": 0.8913330552095898,
+      "word_coverage": 0.7636164623534045
+    }
+  }
+}

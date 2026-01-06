@@ -1,0 +1,39 @@
+# Empathy Alignment Project
+# Core dependencies for 4-dimensional empathy metrics and LLM training
+
+# Deep Learning & LLM
+torch>=2.0.0
+transformers>=4.36.0
+accelerate>=0.25.0
+peft>=0.7.0
+trl>=0.7.0  # For DPO training
+bitsandbytes>=0.41.0  # For quantization
+
+# Data Processing
+datasets>=2.15.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# NLP & Metrics
+nltk>=3.8.0
+spacy>=3.7.0
+
+# Evaluation Metrics
+# - Specificity: Concreteness ratings
+# - Reflection Level: PAIR model
+# - Word Choice: NRC VAD Lexicon
+# - Diversity: Distinct-n
+
+# Utilities
+tqdm>=4.66.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Logging & Experiment Tracking
+wandb>=0.16.0
+tensorboard>=2.15.0
+
+# API & Config
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+
